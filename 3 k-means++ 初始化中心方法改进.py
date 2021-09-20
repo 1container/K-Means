@@ -92,5 +92,3 @@ plt.title('K-means++算法性能评估指数散点图')
 plt.xlabel("编号")
 plt.ylabel("指数")
 plt.show()
-
-
