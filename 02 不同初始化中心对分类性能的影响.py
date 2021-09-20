@@ -79,20 +79,3 @@ plt.title('西瓜数据集穷举初始化中心的分类性能指数散点图')
 plt.xlabel("编号")
 plt.ylabel("指数")
 plt.show()
-
-# #可视化聚类结果
-# import matplotlib.pyplot as plt
-# for i in range(le):
-#     if cl[i,0]==0:
-#         plt.plot(data[i,0],data[i,1],'sg')
-#     elif cl[i,0]==1:
-#         plt.plot(data[i,0],data[i,1],'or')
-# plt.plot(matmean[0,0],matmean[0,1],'.k')
-# plt.plot(matmean[1,0],matmean[1,1],'.k')
-# plt.title('Classification of watermelons')
-# plt.xlabel('density')
-# plt.ylabel('sugercontent')
-# plt.grid(c='silver',linestyle='--')
-# plt.xlim([0.2,0.9])  # x轴边界
-# plt.ylim([0,0.8])  # y轴边界
-# plt.show()
