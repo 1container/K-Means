@@ -1,18 +1,9 @@
 import math
 import pandas as pd 
 import numpy as np 
-# 读取数据
 import csv
-# with open('F:\\watermelon.csv','r') as csvfile:
-#     reader = csv.reader(csvfile)
-#     rows = [row for row in reader]
 
-# # 数据处理
-# file = np.array(rows); file1 = file[1:,1:]#去除第一列第一行
-# file2=pd.DataFrame(file1)# 去除重复数据
-# file2.drop_duplicates(inplace=True)
-# file3=np.array(file2); data = file3.astype(float)# 转换格式
-
+# 数据处理
 file=pd.read_csv('F:\\watermelon.csv')#读取数据
 file1=file.drop('number',axis=1)#删除number列
 file1.drop_duplicates(inplace=True)#去除重复数据
